@@ -40,7 +40,7 @@ function intToHex(color: number): string {
 const RiveCustom = () => {
   const { rive, RiveComponent } = useRive({
     // Load a local riv `clean_the_car.riv` or upload your own!
-    src: "src/rive/color_test.riv",
+    src: "/rive/color_test.riv",
     // Be sure to specify the correct state machine (or animation) name
     stateMachines: "StateMachine",
     // Autoplay the state machine
